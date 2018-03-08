@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>阴阳师</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jQuery3.2.1.min.js"></script>
+	<script src="js/vue.js"></script>
+	<script src="js/vue-router.js"></script>
+	<script src="js/newsData.js"></script>
+	<script src="js/shishenData.js"></script>
+	<script src="js/zhujueData.js"></script>
+	<script src="js/strateData.js"></script>
+	<script src="js/fanData.js"></script>
+	<script src="js/activityData.js"></script>
+
+</head>
+<body>
+	<!-- header start -->
+	<div id="header">
+		<div id="nav">
+			<div class="leftPart">
+				<div class="part1">
+					<p>扫码下载</p>
+					<div class="qrcode"></div>
+				</div>
+				<div class="part2">
+					<div class="logo"></div>
+					<div class="gameName">
+						<h3>阴阳师</h3>
+						<p>网易和风匠心巨制</p>
+					</div>
+				</div>
+			</div>
+			<ul class="mainList">
+				<li class="mNav"><a href="javascript:;">官网首页</a></li>
+				<li class="line"></li>
+				<li class="mNav"><a href="javascript:;">新闻资讯</a></li>
+				<li class="line"></li>
+				<li class="mNav"><a href="javascript:;">游戏攻略</a></li>
+				<li class="line"></li>
+				<li class="mNav"><a href="javascript:;">游戏特色</a></li>
+				<li class="line"></li>
+				<li class="mNav showHide">
+					<a href="javascript:;">同人专区</a>
+					<span class="arrow"></span>
+				</li>
+				<li class="line"></li>
+				<li class="mNav showHide">
+					<a href="javascript:;">官方渠道</a>
+					<span class="arrow"></span>
+				</li>
+			</ul>
+			<div class="ulHide">
+				<div class="hide">
+					<ul class="hideList">
+						<li class="move">
+							<a href="javascript:;">
+								<i class="i1"></i>
+								<p>玩家COS</p>
+							</a>
+						</li>
+						<li class="border"></li>
+						<li class="move">
+							<a href="javascript:;">
+								<i class="i2"></i>
+								<p>同人绘画</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="hide">
+					<ul class="hideList">
+						<li class="qq">
+							<ul>
+								<li>465627963</li>
+								<li>465634963</li>
+								<li>464527963</li>
+								<li>465666673</li>
+								<li>465677963</li>
+								<li>465677743</li>
+								<li>464335563</li>
+								<li>467877963</li>
+								<li>465566763</li>
+								<li>466234793</li>
+							</ul>
+							<p>官方QQ群</p>
+						</li>
+						<li class="border"></li>
+						<li><a href="javascript:;">
+								<i class="i4"></i>
+								<p>官方微信</p>
+							</a>
+						</li>
+						<li class="border"></li>
+						<li><a href="javascript:;">
+								<i class="i3"></i>
+								<p>官方微博</p>
+							</a>
+						</li>
+						<li class="border"></li>
+						<li class="move">
+							<a href="javascript:;">
+								<i class="i2"></i>
+								<p>百度贴吧</p>
+							</a>
+						</li>
+						<li class="border"></li>
+						<li class="move">
+							<a href="javascript:;">
+								<i class="i1"></i>
+								<p>官方论坛</p>
+							</a>
+						</li>	
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="role">
+			<div class="roleP1">
+				<div class="role1"></div>
+				<div class="role2"></div>
+			</div>
+			<div class="roleP2">
+				<div class="role4"></div>
+				<div class="role3"></div>
+			</div>
+		</div>
+		<div class="changeBtn"></div>
+		<div class="logo"><a href="index.html"></a></div>
+		<div class="roleBottom"></div>
+		<div class="bunny"></div>
+		<div class="service">
+			<div class="box">
+				<div class="close"></div>
+			</div>
+		</div>
+	</div>
+	<!-- header end -->
+
+	
+	<!-- content start -->
+	<div id="content">
+		<!--slide start-->
+        <div id="slide">
+            <p class="title"></p>
+            <span class="arrow"></span>
+
+            <!--下载横向伸缩区-->
+            <div class="download stretch">
+                <p class="shrink"></p>
+                <div class="downloadMain">
+                    <span class="close"></span>
+                    <p class="bg1"></p>
+                    <div class="qrcode">
+                        <img class="qr" src="img/index/xiazaiqrcode.png" width="210" height="210" alt="">
+                        <img class="line" src="img/index/line.png" width="106" height="9" alt="">
+                    </div>
+                    <div class="downLink">
+                        <a href="javascript:;" class="ios"></a>
+                        <a href="javascript:;" class="android"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!--游戏日历主内容-->
+            <div class="main">
+                <ul>
+                    <li class="mainLi l9 left"></li>
+                    <li class="mainLi l8 right"></li>
+                    <li class="mainLi l7 left"></li>
+                    <li class="mainLi l6 right"></li>
+                    <li class="mainLi l5 left"></li>
+                    <li class="mainLi l4 right"></li>
+                    <li class="mainLi l3 left"></li>
+                    <li class="mainLi l2 right"></li>
+                    <li class="mainLi l1 left">
+                        <div class="show">协同斗技,每周六日14:00-15:30斗技</div>
+                        <div class="hide">
+                            <p class="hide">周一至周五  11:00-13:00,20:00-22:00</p>
+                            <p class="hide">周一至周五  11:00-13:00,20:00-22:00</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--slide end-->
+		<!-- news start -->
+		<div id="news">
+			<div class="banner">
+				<ul class="pic">
+					<li class="on"><img src="img/index/b1.jpg" alt="" width="360px" height="270px"></li>
+					<li><img src="img/index/b2.jpg" alt="" width="360px" height="270px"></li>
+					<li><img src="img/index/b3.jpg" alt="" width="360px" height="270px"></li>
+					<li><img src="img/index/b4.jpg" alt="" width="360px" height="270px"></li>
+					<li><img src="img/index/b5.jpg" alt="" width="360px" height="270px"></li>
+				</ul>
+				<ul class="dot">
+					<li class="on"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="newsInform">
+				<div class="nav">
+					<ul>
+						<li class="l1 on"><a href="javascript:;">
+								<i></i>
+								<em></em>
+								<span></span>
+							</a></li>
+						<li class="l2"><a href="javascript:;">
+								<i></i>
+								<em></em>
+								<span></span>
+							</a></li>
+						<li class="l3"><a href="javascript:;">
+								<i></i>
+								<em></em>
+								<span></span>
+							</a></li>
+						<li class="l4"><a href="javascript:;">
+								<i></i>
+								<em></em>
+								<span></span>
+							</a></li>
+						<li class="l5"><a href="javascript:;">
+								<i></i>
+								<span></span>
+							</a></li>
+					</ul>
+				</div>
+				<div class="showList">
+					<ul class="navList">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- news end -->
+	</div>
+	<!-- content end -->
+
+	<!--character start-->
+    <div id="character">
+        <div class="sMain">
+            <!--平安之旅 式神 主角-->
+            <div class="title">
+                <span class="bg1"></span>
+                <span class="dotted"></span>
+                <p class="tab" :class="{active:isTab1}">
+                    <i></i>
+                    <span class="tab1" @click="changeTab(0)"></span>
+                </p>
+                <span class="dotted"></span>
+                <p class="tab" :class="{active:isTab2}">
+                    <i></i>
+                    <span class="tab2" @click="changeTab(1)"></span>
+                </p>
+            </div>
+            <!--对应的显示-->
+            <div class="showMain">
+                <ul class="mList">
+                    <!--式神列表-->
+                    <character-part1 v-show="isTab1"></character-part1>
+                    <character-part2 v-show="isTab2"></character-part2>
+                    <!-- <li class="mLi shishenList">
+                          <div class="shishenTab">
+                              <ul>
+                                  <li class="clickBtn on">全部</li>
+                                  <li class="clickBtn">SSR</li>
+                                  <li class="clickBtn">SR</li>
+                                  <li class="clickBtn">R</li>
+                                  <li class="clickBtn">N</li>
+                                  <li class="allBtn"><a href="javascript:void(0)"><img src="img/index/viewAll_btn_18af8fe.png" alt=""></a></li>
+                              </ul>
+                          </div>
+		                    <div class="mainList">
+		                        <div class="mUl show">
+		                            <ul class="ALL">
+		                                <li class="ssList">
+		                                     <div class="shishen">
+		                                         <img src="img/index/201.png" alt="">
+		                                         <p class="cover"><span>雪女</span></p>
+		                                         <i class="new"></i>
+		                                     </div>
+		                                     <div class="shishen">
+		                                         <img src="img/index/201.png" alt="">
+		                                         <p class="cover"><span>雪女</span></p>
+		                                         <i class="new"></i>
+		                                     </div>
+		                                 </li>
+		                            </ul>
+		                            <p class="btn left"></p>
+		                            <p class="btn right"></p>
+		                        </div>
+		                    </div>
+		                </li> -->  
+    			</div>
+			</div>    	
+        </div>  
+    </div>
+	<!--character end-->
+
+    <!--strategy start-->
+    <div id="strategy">
+        <div class="leftPart">
+            <!--搜索框-->
+            <div class="search">
+                <div class="sInp"><input type="text" placeholder="请输入寮间问题"></div>
+                <div class="sBtn"></div>
+            </div>
+            <div class="bMain">
+                <!--banner-->
+                <div class="banner">
+                    <div class="pic">
+                        <ul>
+                            <li><a href="javascript:void(0)"></a><img src="img/index/gl_banner_dbcbd77.jpg" alt=""></li>
+                            <li><a href="javascript:void(0)"></a><img src="img/index/ng_banner_830d3e8.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                    <div class="tab">
+                        <ul>
+                            <li class="on"></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--navLink-->
+                <div class="navLink">
+                    <ul>
+                        <li class="l1"><a href="javascript:void(0)"><span></span><i></i></a></li>
+                        <li class="l2"><a href="javascript:void(0)"><span></span><i></i></a></li>
+                        <li class="l3"><a href="javascript:void(0)"><span></span><i></i></a></li>
+                        <li class="l4"><a href="javascript:void(0)"><span></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+		<div class="rightPart">
+            <div class="title">
+                <span class="tab bg1"></span>
+                <span class="dotted"></span>
+                <p class="tab">
+                    <i></i>
+                    <span class="tab1"></span>
+                </p>
+                <span class="dotted"></span>
+                <p class="tab">
+                    <i></i>
+                    <span class="tab2"></span>
+                </p>
+                <span class="dotted"></span>
+                <p class="tab">
+                    <i></i>
+                    <span class="tab3"></span>
+                </p>
+                <span class="dotted"></span>
+                <p class="tab">
+                    <i></i>
+                    <span class="tab4"></span>
+                </p>
+            </div>
+            <div class="mContent">
+                <strategy-list ></strategy-list>
+                <!-- <div class="show">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <i></i>
+                                <p class="mTitle">【<span class="type">御魂</span>】&nbsp;逆转的胜利！反击流式神阵容推荐！</p>
+                                <p class="author">作者：<span>迷子</span></p>
+                            </a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!--strategy end-->
+    <!--同人专区 start-->
+    <div id="fan">
+        <div class="tab">
+            <div class="img"></div>
+            <div class="tabNav">
+                <p class="line"></p>
+                <ul>
+                    <li class="l1 on"><span>精选推荐</span><i></i></li>
+                    <li class="l2"><span>同人绘画</span><i></i></li>
+                    <li class="l3"><span>玩家COS</span><i></i></li>
+                    <li class="l4"><span>同人视频</span><i></i></li>
+                    <li class="l5"><span>同人小说</span><i></i></li>
+                    <li class="l6"><span>高手在民间</span><i></i></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0)" class="goLink"></a>
+        </div>
+        <div class="mFan">
+        	<fan-list></fan-list>
+            <!-- <div class="show">
+            	<ul>
+            		<li>
+	                    <div class="pic">
+	                        <img src="img/index/fan/jxtj/1.jpg" alt="">
+	                        <span><b></b></span>
+	                    </div>
+	                    <p class="sTitle">妖刀姬cos【作者】@押切YAKI</p>
+	                </li>
+            	</ul>
+            </div> -->
+        </div>
+    </div>
+    <!--同人专区 end-->
+	<!-- videoWallpaper start -->
+	<div id="videoWallpaper">
+		<div class="main">
+			<div class="videoBox">
+				<ul>
+					<li><a href="javascript:;" class="title"></a></li>
+					<li class="pic pic1">
+						<a href="javascript:;">
+							<div class="picshow"></div>
+							<p>《阴阳师》核心玩法</p>
+						</a>
+					</li>
+					<li class="pic pic2">
+						<a href="javascript:;">
+							<div class="picshow"></div>
+							<p>《阴阳师》声优阵容</p>
+						</a>
+					</li>
+					<li class="pic pic3">
+						<a href="javascript:;">
+							<div class="picshow"></div>
+							<p>【阴阳师X极乐净土】抽式神不如跳舞</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="wallpaperBox">
+				<ul>
+					<li><a href="javascript:;" class="title"></a></li>
+					<li class="pic pic1">
+						<a href="javascript:;">
+							<div class="picshow"></div>
+							<p>游戏场景原画</p>
+						</a>
+					</li>
+					<li class="pic pic2">
+						<a href="javascript:;">
+							<div class="picshow"></div>
+							<p>游戏场景原画</p>
+						</a>
+					</li>
+					<li class="pic pic3">
+						<a href="javascript:;">
+							<div class="picshow"></div>
+							<p>游戏角色原画</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- videoWallpaper end -->
+	<!-- 活动专区 start -->
+	<div id="activity">
+		<div class="main">
+			<div class="title"></div>
+			<div class="content">
+				<ul>
+					<li v-for="item in activityData">
+						<a href="javascript:;">
+							<img :src="item.url" alt="">
+							<p>{{item.name}}</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 活动专区 end -->
+	<!-- 二维码专区 start -->
+	<div id="codeqr">
+		<a href="javascript:;"></a>
+		<div class="main">
+			<div class="weibowrap">
+				<div class="word">
+					<p>关注官方微博</p>
+					<p>扫描二维码</p>
+					<p class="pic"></p>
+				</div>
+				<div class="qr"><img src="img/index/wb.png" alt=""></div>
+				<a href="javascript:;"><span>微博名：</span><b>网易阴阳师手游</b></a>
+			</div>
+			<div class="weixinwrap">
+				<div class="word">
+					<p>关注微信公众号</p>
+					<p>扫描二维码</p>
+					<p class="pic"></p>
+				</div>
+				<div class="qr"><img src="img/index/wx.jpg" alt=""></div>
+				<a href="javascript:;"><span>公众号：</span><b>ybnyangshi163</b></a>
+			</div>
+			<div class="service">
+				<div class="pic"></div>
+				<p>客户服务电话</p>
+				<p class="tel">0571-26201179</p>
+				<p><a href="javascript:;"><span>问题反馈</span></a><a href="javascript:;"><b>精灵咨询</b></a></p>
+			</div>
+		</div>
+		<div ass="gotop"></div>
+	</div>
+	<!-- 二维码专区 end -->
+	<!-- footer start -->
+	<div id="footer">
+		<h1></h1>
+		<div class="main">
+			<h3></h3>
+			<div class="gouzi"></div>
+			<div class="qr">
+				<p></p>
+			</div>
+			<div class="door"></div>
+		</div>
+	</div>
+	<!-- footer end -->
+	<div id="copyright">
+		<p>Copyright @ddd打点滴  仿阴阳师官网</p>
+		<p>运用面向对象写轮播，vue.js处理数据</p>
+	</div>
+	
+	<script src="js/index.js"></script>
+</body>
+</html>

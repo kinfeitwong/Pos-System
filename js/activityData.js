@@ -1,0 +1,26 @@
+var activityData={
+	data:[{
+		name:"“浮妖百态”式神设计大赛",
+		url:"img/index/a1.jpg"
+	},
+	{
+		name:"农夫山泉“舔瓶我崽”揭盖有奖",
+		url:"img/index/a2.jpg"
+	},
+	{
+		name:"KFC跨界应援开启！",
+		url:"img/index/a3.jpg"
+	},
+	{
+		name:"贴吧活动：地表最萌告白开启",
+		url:"img/index/a4.jpg"
+	},
+	{
+		name:"大触觉醒第二季！同人插画大赛",
+		url:"img/index/a5.jpg"
+	},
+	{
+		name:"天机谱：有奖攻略互动计划",
+		url:"img/index/a6.jpg"
+	}]
+}
