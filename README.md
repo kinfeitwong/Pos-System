@@ -1,2 +1,8 @@
-这是一个仿网易游戏阴阳师官网的网站，网页包括主页还有一个首页
-技术栈：DIV+CSS JQuery Vuejs Axios
+仿阴阳师官网
+=
+技术栈：
+-
+1.HTML+CSS
+2.CSS3
+3.VueJs
+4.Axios
